@@ -16,6 +16,7 @@
     extensions = [
       "ms-python.python"
       "ms-python.debugpy"
+      "ms-toolsai.jupyter"
     ];
 
     # Enable previews
