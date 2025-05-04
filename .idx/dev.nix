@@ -39,6 +39,7 @@
       onStart = {
         install-dependencies = ''
           uv sync --all-groups
+          uv lock --upgrade
         '';
       };
     };
